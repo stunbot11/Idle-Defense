@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9194520081779392460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 382657473183054884}
+  - component: {fileID: 6797691535520711018}
+  - component: {fileID: 4365041761815469062}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &382657473183054884
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9194520081779392460}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.0155258, y: 0.89490414, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6797691535520711018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9194520081779392460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c884e7a5385833d49bdf838b4c65cfdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPoint: {fileID: 0}
+  path:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  gen1: {fileID: 0}
+  gen2: {fileID: 0}
+  gen3: {fileID: 0}
+  gen4: {fileID: 0}
+  gen5: {fileID: 0}
+  gen6: {fileID: 0}
+  onEnemyDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+  hasUpgradeMenu: 0
+  difficultyScalingFactor: 0.75
+  timeBetweenRounds: 3
+  isSpawning: 0
+  baseEnemies: 8
+  enemiesPerSecond: 0.5
+  enemy1: {fileID: 322097076480469235, guid: 1e9150aa9fc9fcf408077656ecfec26a, type: 3}
+  enemy2: {fileID: 4740552943085602789, guid: 4ddabf6cb304d9648983fc0d97d98010, type: 3}
+  enemy3: {fileID: 2868411483606567842, guid: 1580143782bbb084c920745b1f852cc2, type: 3}
+  upgrade1: {fileID: 0}
+  upgrade2: {fileID: 0}
+  upgrade3: {fileID: 0}
+  upgradeMenu: {fileID: 0}
+  enemyPrefabs:
+  - {fileID: 7377453679874402242, guid: 1e9150aa9fc9fcf408077656ecfec26a, type: 3}
+  - {fileID: 7377453679874402242, guid: 1e9150aa9fc9fcf408077656ecfec26a, type: 3}
+  - {fileID: 7377453679874402242, guid: 1e9150aa9fc9fcf408077656ecfec26a, type: 3}
+  - {fileID: 2988286479728234272, guid: 4ddabf6cb304d9648983fc0d97d98010, type: 3}
+  - {fileID: 3655901206457440866, guid: 1580143782bbb084c920745b1f852cc2, type: 3}
+  towers:
+  - name: MiniGunner
+    cost: 150
+    prefab: {fileID: 8740288982886055925, guid: 5dfce53e718c2c041b7342e501c77ca5, type: 3}
+  - name: DiceThrower
+    cost: 25
+    prefab: {fileID: 3105543140065841270, guid: 3b817679857077d43bc96f25513942d9, type: 3}
+  - name: Turret
+    cost: 75
+    prefab: {fileID: 1093659293016467347, guid: 69beb02e5fab848418df0058a565bf69, type: 3}
+  enemiesAlive: 0
+  enemiesLeftToSpawn: 0
+  ll: {fileID: 0}
+  onMainMenu: 0
+  money: 990909099
+  moneyTxt: {fileID: 0}
+  life: 150
+  lifeTxt: {fileID: 0}
+  idle: {fileID: 0}
+  hide: {fileID: 0}
+  show: {fileID: 0}
+  gen1Bar: {fileID: 0}
+  gen1Txt: {fileID: 0}
+  gen1LvlCostTxt: {fileID: 0}
+  gen2Info: {fileID: 0}
+  gen2Bar: {fileID: 0}
+  gen2Txt: {fileID: 0}
+  gen2LvlCostTxt: {fileID: 0}
+  gen3Info: {fileID: 0}
+  gen3Bar: {fileID: 0}
+  gen3Txt: {fileID: 0}
+  gen3LvlCostTxt: {fileID: 0}
+  gen4Info: {fileID: 0}
+  gen4Bar: {fileID: 0}
+  gen4Txt: {fileID: 0}
+  gen4LvlCostTxt: {fileID: 0}
+  gen5Info: {fileID: 0}
+  gen5Bar: {fileID: 0}
+  gen5Txt: {fileID: 0}
+  gen5LvlCostTxt: {fileID: 0}
+  lifeGenInfo: {fileID: 0}
+  lifeGenBar: {fileID: 0}
+  round: 1
+  roundTxt: {fileID: 0}
+--- !u!114 &4365041761815469062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9194520081779392460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1581a10a3c9c6274fa3aac0e6cafecb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gen1: {fileID: 0}
+  gen2: {fileID: 0}
+  gen3: {fileID: 0}
+  gen4: {fileID: 0}
+  gen5: {fileID: 0}
+  enemy1: {fileID: 322097076480469235, guid: 1e9150aa9fc9fcf408077656ecfec26a, type: 3}
+  enemy2: {fileID: 4740552943085602789, guid: 4ddabf6cb304d9648983fc0d97d98010, type: 3}
+  enemy3: {fileID: 2868411483606567842, guid: 1580143782bbb084c920745b1f852cc2, type: 3}
